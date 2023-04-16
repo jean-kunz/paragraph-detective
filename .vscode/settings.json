@@ -1,0 +1,28 @@
+{
+    //"python.defaultInterpreterPath": "/Users/jkunz/.pyenv/shims/python"
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "notebook.formatOnSave.enabled": true,
+    "editor.formatOnSave": true,
+    "notebook.cellToolbarVisibility": "hover",
+    "search.experimental.notebookSearch": true,
+    "jupyter.themeMatplotlibPlots": true,
+    // linting
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": false,
+    // formating
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "120"
+    ],
+    // pylance
+    "python.languageServer": "Default",
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.fixAll": [
+        "source.unusedImports",
+        "source.convertImportFormat"
+    ],
+    "python.analysis.refactoring.allowMovingSymbols": true,
+    "autoDocstring.docstringFormat": "pep257"
+}
