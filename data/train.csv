@@ -1,0 +1,52 @@
+grp;row;line_txt;new_paragraph
+1;1;Index;1
+1;2;Item;1
+1;3;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar suscipit aliquam. Donec;1
+1;4;I. Introduction;1
+1;5;II. Scope;1
+1;6;III. Definitions;1
+1;7;Principle 1: Lorem ipsum dolor sit amet;1
+1;8;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar ;0
+1;9; suscipit aliquam.;0
+1;10;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar suscipit aliquam. Don-;1
+1;11;ec a convallis justo. Pellentesque molestie ornare elit.;0
+1;12;Title;1
+1;13;Lorem ipsum dolor sit amet, consectetur adipiscing;1
+1;14; elit. Ut pulvinar suscipit aliquam. Donec a convallis;0
+1;15; justo. Pellentesque molestie ornare elit.;0
+1;16;I. Introduction;1
+1;17;Fusce congue eget mauris quis malesuada. Integer eget nulla quis purus condimentum tincidunt;1
+1;18;exert considerable influence on its capital, liquidity and risk situation. In addition, remuneration ;0
+1;19; eu quis massa. Nullam quis sollicitudin nulla. Pellentesque eu quam at urna congue lobortis et;0
+1;20;ac eros. Cras tempor fringilla ipsum id semper. Etiam lobortis nec sem at aliquet. Aliquam;0
+1;21;erat volutpat. Nunc aliquam scelerisque risus non vehicula. Duis placerat commodo massa;0
+1;22; non venenatis. Pellentesque malesuada mauris vitae tempus  gravida. Cras porttitor justo ips-;0
+1;23;um, et .;0
+1;24;;1
+1;25;Fusce congue eget mauris quis malesuada. Integer eget null;1
+1;26;exert considerable influence on its capital, liquidity and risk;1
+1;27; eu quis massa. Nullam quis sollicitudin nulla.;0
+1;28;3*;1
+1;29;Fusce congue eget mauris quis malesuada. Integer eget nulla quis purus condimentum;1
+1;30;exert considerable influence on its capital, liquidity and risk situation. In addition, rem- ;0
+1;31; eu quis massa. Nullam quis sollicitudin nulla. Pellentesque eu quam at urna congue;0
+1;32;ac eros. Cras tempor fringilla ipsum id semper. Etiam lobortis nec sem at aliquet.;0
+1;33;erat volutpat. Nunc aliquam scelerisque risus non vehicula. Duis placerat commodo;0
+1;34; non venenatis. Pellentesque malesuada mauris vitae tempus  gravida. Cras porttitor;0
+1;35;um, et Fusce congue eget .;0
+1;36;Fusce congue eget mauris quis malesuada. Integer eget nulla quis purus condimentum tincidunt;1
+1;37; eu quis massa. Nullam quis sollicitudin nulla. Pellentesque eu quam at urna congue lobortis et;0
+1;38;ac eros. Cras tempor fringilla ipsum id semper. Etiam lobortis nec sem at aliquet. Aliquam;0
+1;39;tempor fringilla!;0
+2;1;C. Item a for a and b,;1
+2;2;D. Case b,c,d,;1
+2;3;E. Specs for xxxxx;1
+2;4;F. Requirements Nullam quis solli-‘,;1
+2;5;citum’.;0
+2;6;Fusce congue eget mauris quis ;1
+2;7;malesuada. Integer eget nulla;0
+2;8;Etiam lobortis nec sem at aliquet. ;0
+2;9;;1
+2;10;Fusce congue eget mauris quis datum;1
+2;11;malesuada. Integer eget nulla aliquam;0
+2;12;Etiam lobortis nec sem at aliquet req.;0
