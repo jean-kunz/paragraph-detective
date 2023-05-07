@@ -1,0 +1,35 @@
+grp;row;line_txt;new_paragraph
+1;1;Section;1
+1;2;Group;1
+1;3;Lorem ipsum dolor sit amet, consectetur adipiscing ;1
+1;4;a. Introduction;1
+1;5;a.1. Scope;1
+1;6;a.1.1. Definitions;1
+1;7;Principle 1: Lorem ipsum dolor sit amet;1
+1;8;Lorem ipsum dolor sit amet, consectetur ;0
+1;9; suscipit aliquam.;0
+1;10;;1
+1;11;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar suscipit aliquam. nulla quis purus condimentum tincidunt Don-;1
+1;12;Lorem ipsum dolor sit amet, consectetur adipiscing eac eros. Cras tempor fringilla ipsum id semper. Etiam lobortis nec sem at aliquet. Aliquam-;0
+1;13;ec a convallis elit.;0
+2;1;C. xxxx,;1
+2;2;D. yya fdfdf;1
+2;3;E. Specs for xxxxx;1
+2;4;F. Requirements quis solli-‘,;1
+2;5;citum’.;0
+2;6;Fusce congue eget ;1
+2;7;malesuada. Inte-;0
+2;8;Etiam lobortis nec. ;0
+2;9;;1
+3;1;Title;1
+3;1;Sub-title;1
+3;2;Lorem ipsum dolor sit amet, consectetur adipiscing -;1
+3;3;elit. Ut pulvinar suscipit aliquam. nulla quis purus ;0
+3;s4;lorem ipsum dolor sit amet;0
+3;5;;1
+3;6;Other subtitle;1
+3;7;Lorem ipsum dolor sit amet, consectetur adipiscing eac;1
+3;9; eros. Cras tempor fringilla ipsum id semper;0
+3;10;;1
+3;11;Lorem ipsum dolor sit amet, consectetur adipiscing ;1
+3;12;eac eros. Cras tempor fringilla ipsum id semper;0
