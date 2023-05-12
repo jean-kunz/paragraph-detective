@@ -22,13 +22,13 @@ grp;row;line_txt;new_paragraph
 2;8;Etiam lobortis nec. ;0
 2;9;;1
 3;1;Title;1
-3;1;Sub-title;1
-3;2;Lorem ipsum dolor sit amet, consectetur adipiscing -;1
-3;3;elit. Ut pulvinar suscipit aliquam. nulla quis purus ;0
-3;s4;lorem ipsum dolor sit amet;0
-3;5;;1
-3;6;Other subtitle;1
-3;7;Lorem ipsum dolor sit amet, consectetur adipiscing eac;1
+3;2;Sub-title;1
+3;3;Lorem ipsum dolor sit amet, consectetur adipiscing -;1
+3;4;elit. Ut pulvinar suscipit aliquam. nulla quis purus ;0
+3;5;lorem ipsum dolor sit amet;0
+3;6;;1
+3;7;Other subtitle;1
+3;8;Lorem ipsum dolor sit amet, consectetur adipiscing eac;1
 3;9; eros. Cras tempor fringilla ipsum id semper;0
 3;10;;1
 3;11;Lorem ipsum dolor sit amet, consectetur adipiscing ;1
