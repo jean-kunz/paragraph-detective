@@ -124,6 +124,7 @@ def clean_paragraph_from_txt_lines(clf: ClassifierMixin, lines: list[str]) -> st
             if l[-1] == "-":
                 l = l[:-1]
 
+        # 1 is for new paragraph.
         if pred == 1:
             txt += "\n" + l
         else:

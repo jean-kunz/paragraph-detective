@@ -134,6 +134,6 @@ def prepare_data_from_csv(file_path: Union[str, Path]) -> pd.DataFrame:
 # %% ../nbs/prepare.ipynb 5
 def prepare_data_from_doc(file_path: Union[str, Path]) -> pd.DataFrame:
     with open(file_path, "r") as f:
-        lines: list[str] = f.readlines()
+        lines: list[str] = f.read().split("\n")
         line_feats = create_line_features(lines)
     return line_feats
