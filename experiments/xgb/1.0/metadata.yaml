@@ -1,11 +1,27 @@
-name: xg
+name: xgb
 version: '1.0'
 cv_scores:
 - 0.8823529411764706
 - 0.9411764705882353
-- 1.0
+- 0.8823529411764706
 train_accuracy: 1.0
-test_accuracy: 0.8823529411764706
+train_confusion_matrix:
+- - 26
+  - 0
+- - 0
+  - 25
+train_f1: 1.0
+train_precision: 1.0
+train_recall: 1.0
+test_accuracy: 0.8529411764705882
+test_confusion_matrix:
+- - 9
+  - 2
+- - 3
+  - 20
+test_f1: 1.0
+test_precision: 1.0
+test_recall: 1.0
 hparams:
   ccp_alpha: 0.0
   criterion: friedman_mse
