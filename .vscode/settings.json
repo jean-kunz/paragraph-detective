@@ -20,5 +20,8 @@
         "source.convertImportFormat"
     ],
     "autoDocstring.docstringFormat": "pep257",
-    "HuggingFaceCode.temperature": 0
+    "HuggingFaceCode.temperature": 0,
+    "github-actions.workflows.pinned.workflows": [
+        ".github/workflows/python-publish.yml"
+    ]
 }

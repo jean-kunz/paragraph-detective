@@ -10,6 +10,7 @@ packages = [{ include = "paragraph_detective" }]
 [tool.poetry.dependencies]
 python = "^3.9"
 scikit-learn = ">=1.0"
+build = "^0.10.0"
 
 
 [tool.poetry.group.dev.dependencies]
