@@ -5,12 +5,11 @@ description = "A small library to find paragraphs in line separated text, such a
 authors = ["Jean Kunz <jean.kunz@gmail.com>"]
 license = "GNU General Public License v3.0"
 readme = "README.md"
-packages = [{include = "paragraph_detective"}]
+packages = [{ include = "paragraph_detective" }]
 
 [tool.poetry.dependencies]
 python = "^3.9"
 scikit-learn = ">=1.0"
-
 
 
 [tool.poetry.group.dev.dependencies]
@@ -20,9 +19,8 @@ pandas = "^2.0"
 flake8 = ">=6"
 black = ">=23"
 pytest = ">=7"
-dvc = "^2"
-dvclive = "^2"
-fastcore="^1.5"
+fastcore = "^1.5"
+pre-commit = "^3.3"
 
 [build-system]
 requires = ["poetry-core"]
