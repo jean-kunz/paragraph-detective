@@ -3,3 +3,5 @@ repos:
     rev: 2.3.11
     hooks:
       - id: nbdev_clean
+        args:
+          - --clear_all
