@@ -10,11 +10,11 @@ packages = [{ include = "paragraph_detective" }]
 [tool.poetry.dependencies]
 python = "^3.9"
 scikit-learn = ">=1.0"
-build = "^0.10.0"
 
 
 [tool.poetry.group.dev.dependencies]
-ipykernel = ">=6.22.0"
+ipykernel = ">=6"
+jupyter = "^1.0"
 nbdev = "^2"
 pandas = "^2.0"
 flake8 = ">=6"
@@ -22,6 +22,8 @@ black = ">=23"
 pytest = ">=7"
 fastcore = "^1.5"
 pre-commit = "^3.3"
+build = "^0.10.0"
+
 
 [build-system]
 requires = ["poetry-core"]
