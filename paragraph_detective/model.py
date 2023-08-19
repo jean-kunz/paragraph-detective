@@ -5,20 +5,26 @@ __all__ = ['MODEL_FILE_NAME', 'X_COLS', 'df_to_x_y', 'get_model', 'clean_doc_par
 
 # %% ../nbs/model.ipynb 1
 import os
-import pandas as pd
-from typing import Final, Union
-from sklearn.base import BaseEstimator
-from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
-from sklearn.base import ClassifierMixin, BaseEstimator
-from sklearn.model_selection import cross_val_score
-from sklearn.metrics import accuracy_score, confusion_matrix, f1_score, precision_score, recall_score
-import joblib
-import yaml
-import numpy as np
-from pathlib import Path
 from dataclasses import dataclass
-from .data_prep import prepare_data_from_doc, create_line_features
+from pathlib import Path
+from typing import Final, Union
 
+import joblib
+import numpy as np
+import pandas as pd
+import yaml
+from sklearn.base import BaseEstimator, ClassifierMixin
+from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
+from sklearn.metrics import (
+    accuracy_score,
+    confusion_matrix,
+    f1_score,
+    precision_score,
+    recall_score,
+)
+from sklearn.model_selection import cross_val_score
+
+from .data_prep import create_line_features, prepare_data_from_doc
 
 # %% ../nbs/model.ipynb 2
 MODEL_FILE_NAME: Final[str] = "clf.joblib"
@@ -46,7 +52,6 @@ def get_model() -> BaseEstimator:
     clf = joblib.load(model_path)
     return clf
 
-
 # %% ../nbs/model.ipynb 3
 def clean_doc_paragraphs(clf: BaseEstimator, doc_path: Union[str, Path]) -> str:
     lines_df, lines = prepare_data_from_doc(doc_path)
@@ -64,4 +69,3 @@ def clean_doc_paragraphs(clf: BaseEstimator, doc_path: Union[str, Path]) -> str:
         else:
             txt += l
     return txt
-

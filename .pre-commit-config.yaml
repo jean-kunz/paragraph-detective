@@ -1,4 +1,14 @@
 repos:
+  - repo: https://github.com/nbQA-dev/nbQA
+    rev: 1.5.3
+    hooks:
+      - id: nbqa-black
+        files: \.(ipynb)$
+        verbose: true
+      # - id: nbqa-isort
+      #   additional_dependencies: [isort]
+      #   files: \.(ipynb)$
+      #   verbose: true
   - repo: https://github.com/fastai/nbdev
     rev: 2.3.11
     hooks:
@@ -6,6 +16,8 @@ repos:
         args:
           - --clear_all
       - id: nbdev_export
+        additional_dependencies: [black]
+
   # - repo: https://github.com/python-poetry/poetry
   #   rev: 1.5.0 # add version here
   #   hooks:
