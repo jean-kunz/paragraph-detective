@@ -1,12 +1,9 @@
+# prevent to commit files that have not been pre-processed, not to fix issues before commiting.
 repos:
   - repo: https://github.com/nbQA-dev/nbQA
     rev: 1.5.3
     hooks:
       - id: nbqa-black
-        files: \.(ipynb)$
-        verbose: true
-      - id: nbqa-isort
-        additional_dependencies: [isort]
         files: \.(ipynb)$
         verbose: true
   - repo: https://github.com/fastai/nbdev
