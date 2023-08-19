@@ -5,10 +5,10 @@ repos:
       - id: nbqa-black
         files: \.(ipynb)$
         verbose: true
-      # - id: nbqa-isort
-      #   additional_dependencies: [isort]
-      #   files: \.(ipynb)$
-      #   verbose: true
+      - id: nbqa-isort
+        additional_dependencies: [isort]
+        files: \.(ipynb)$
+        verbose: true
   - repo: https://github.com/fastai/nbdev
     rev: 2.3.11
     hooks:
