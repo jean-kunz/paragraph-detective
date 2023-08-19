@@ -38,20 +38,11 @@ def create_line_features(lines: list[str]) -> pd.DataFrame:
     """
     line_lengths = [len(l) for l in lines]
     line_rows = [i for i, _ in enumerate(lines)]
-    are_end_of_sent = [
-        l.strip()[-1] in [".", "?", "!"] if len(l.strip()) > 0 else False for l in lines
-    ]
-    are_end_hyphen = [
-        l.strip()[-1] in ["-"] if len(l.strip()) > 0 else False for l in lines
-    ]
+    are_end_of_sent = [l.strip()[-1] in [".", "?", "!"] if len(l.strip()) > 0 else False for l in lines]
+    are_end_hyphen = [l.strip()[-1] in ["-"] if len(l.strip()) > 0 else False for l in lines]
     # erreur car élimine des lignes. ils doit avoir une valeur else
-    are_start_upper = [
-        l.strip()[0].isupper() if len(l.strip()) > 0 else False for l in lines
-    ]
-    are_start_bullet = [
-        l.strip().startswith(("-", "•", "o ")) if len(l.strip()) > 0 else False
-        for l in lines
-    ]
+    are_start_upper = [l.strip()[0].isupper() if len(l.strip()) > 0 else False for l in lines]
+    are_start_bullet = [l.strip().startswith(("-", "•", "o ")) if len(l.strip()) > 0 else False for l in lines]
 
     assert (
         len(line_lengths)
@@ -93,9 +84,7 @@ def create_line_features(lines: list[str]) -> pd.DataFrame:
     return lines_df
 
 # %% ../nbs/data_prep.ipynb 3
-def prepare_data_from_doc(
-    file_path: Union[str, Path]
-) -> tuple[pd.DataFrame, list[str]]:
+def prepare_data_from_doc(file_path: Union[str, Path]) -> tuple[pd.DataFrame, list[str]]:
     with open(file_path, "r") as f:
         lines: list[str] = f.read().split("\n")
         line_feats_df = create_line_features(lines)
