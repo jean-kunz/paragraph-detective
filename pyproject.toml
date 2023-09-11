@@ -24,6 +24,7 @@ pytest = ">=7"
 fastcore = "^1.5"
 pre-commit = "^3.3"
 build = "^0.10.0"
+pydantic = "^2.3.0"
 
 
 [build-system]
